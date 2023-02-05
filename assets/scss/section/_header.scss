@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
 /* Color Variables */
 /* #eff3f6 */
 /* Styles */
@@ -8,6 +8,8 @@ body {
   letter-spacing: 1px;
 
 }
+
+
 .text-red {
     color: red !important;
   }
@@ -41,6 +43,11 @@ body {
   }
 
 
+
+
+
+
+
 .main ::-webkit-scrollbar {
     width: 5px;
   }
@@ -56,6 +63,15 @@ body {
   }
 
 
+
+
+
+
+
+
+
+
+
 /* Left Menu */
 .left {
     width: 55px;
@@ -68,19 +84,20 @@ body {
     transition: all 0.5s;
     font-weight: bold;
   }
-.left:hover {
- width: 230px;
-}
-.left:hover ul li.menu-heading {
- opacity: 1;
- text-align: center;
-}
+// .left:hover {
+//  width: 230px;
+// }
+// .left:hover ul li.menu-heading {
+//  opacity: 1;
+//  text-align: center;
+// }
 .left ul {
  padding-left: 0;
 }
 .left ul li {
 list-style-type: none;
 }
+
 
 .left ul li a {
     display: flex;
@@ -138,6 +155,16 @@ list-style-type: none;
      }
    
   }
+
+
+
+
+
+
+
+
+
+
 
 
   /* Right Content */
@@ -351,6 +378,13 @@ list-style-type: none;
 }
 
 
+
+
+
+
+
+
+
 /* flèches menu gauche*/
 #fa1{
   margin-left: 52px !important;
@@ -364,10 +398,29 @@ list-style-type: none;
   margin-left: 40px !important;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   .right #overview .content {
     padding: 100px 30px 15px 30px;
 
+
   }
+
+
+
+
 
   .left:hover + .right {
     margin-left: 17%;

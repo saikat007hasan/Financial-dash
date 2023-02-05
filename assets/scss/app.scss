@@ -1,20 +1,48 @@
-@import "vendor/bootstrap/scss/bootstrap";
-@import "vendor/select2/scss/core";
-@import "vendor/fontawesome/fontawesome.min";
-@import "vendor/mcustomscrollbar/mcustomscrollbar";
+        // import-app-vendor-sass
 
-@import "mixins";
-@import "variables";
 
-@import "component/typography";
-@import "component/button";
-@import "component/form";
-@import "component/modal";
-@import "component/table";
-@import "component/tabs";
-@import "component/accordion";
-@import "component/navigationMenu";
+@import "app-vendor/bootstrap/config.bs";
+@import "app-vendor/select2/scss/core";
+@import "app-vendor/fonts/fontawesome.min";
+@import "app-vendor/mcustomscrollbar/mcustomscrollbar";
+@import "app-vendor/css/*.css";
 
-@import "pages/login";
-@import "pages/dashboard";
+
+
+
+
+    // sections-scss
+
+@import "section/sections";
+
+
+        // component-sass
+
+
+@import "component/components";
+
+    // pages-sass
+
+
+@import "page/pages";
+
+    // other    
+@import "mixins/mixins";
+@import "mixins/functions";
+@import "css-variables";
 @import "main";
+
+
+        // general
+
+@import "general/utility-classes";
+@import "general/keyframes";
+@import "general/general";
+
+    // section
+
+@import "section/sections";
+
+// responsive styles
+@import "responsive";
+

@@ -1,8 +1,8 @@
 {
   "dependencies": {
-    "autoprefixer": "^10.4.4",
-    "browser-sync": "^2.27.9",
-    "cssnano": "^5.1.7",
+    "autoprefixer": "^10.4.13",
+    "browser-sync": "^2.27.11",
+    "cssnano": "^5.1.14",
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-livereload": "^4.0.2",
@@ -11,8 +11,8 @@
     "gulp-postcss": "^9.0.1",
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^5.1.0",
-    "postcss": "^8.4.12",
-    "sass": "^1.45.1"
+    "postcss": "^8.4.21",
+    "sass": "^1.58.0"
   },
   "name": "financial-dash",
   "description": "Installation Steps >",
@@ -21,13 +21,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "financial-dash",
-    "sovware"
-  ],
-  "author": "saikat-hasan",
+ 
+  "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "gulp-file-include": "^2.3.0"
-  }
+ 
+  "homepage": "https://github.com/saikat007hasan/financial-dash#readme"
 }
